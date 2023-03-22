@@ -9,10 +9,10 @@ const btn = document.getElementById("btn");
                 return new Promise((resolve, reject) => {
                     setTimeout(() => {
                         if (umar >= 18) {
-                            resolve("Welcome "+ naam +" You can vote")
+                            resolve("Welcome "+ naam +". You can vote")
                         }
                         else {
-                            reject("Sorry "+ naam +" You can not vote");
+                            reject("Oh sorry "+ naam +". You aren't old enough.");
                         }
                     }, 4000);
 
@@ -21,11 +21,11 @@ const btn = document.getElementById("btn");
 
             }
 
-           function run(){
-                 checkAge().then((res) => {
-                alert(res);
-            })
-                .catch((err) => {
-                    alert(err);
-                });
-            }
+           // function run(){
+           //       checkAge().then((res) => {
+           //      alert(res);
+           //  })
+           //      .catch((err) => {
+           //          alert(err);
+           //      });
+           //  }
