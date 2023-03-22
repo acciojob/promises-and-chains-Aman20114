@@ -21,11 +21,11 @@ const btn = document.getElementById("btn");
 
             }
 
-           // function run(){
-           //       checkAge().then((res) => {
-           //      alert(res);
-           //  })
-           //      .catch((err) => {
-           //          alert(err);
-           //      });
-           //  }
+           function run(){
+                 checkAge().then((res) => {
+                alert(res);
+            })
+                .catch((err) => {
+                    alert(err);
+                });
+            }
