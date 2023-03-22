@@ -2,9 +2,8 @@ const btn = document.getElementById("btn");
 
             btn.addEventListener('click', run);
 
-            // console.log(name, age)
-
             function checkAge() {
+				const form = document.querySelector("form");
                 const umar = document.getElementById('age').value;
                 const naam = document.getElementById('name').value;
                 return new Promise((resolve, reject) => {
