@@ -1,7 +1,6 @@
 const btn = document.getElementById("btn");
 
-            btn.addEventListener('click', (event) => {
-    event.preventDefault();
+            btn.addEventListener('click', run);
 
             function checkAge() {
 				const form = document.querySelector("form");
